@@ -19,4 +19,4 @@ This repository contains professional documentation and case studies developed d
 * [cite_start]Standardization of security policies using the **ISO/IEC 27001** framework. [cite: 96]
 
 ### 📁 Project Documentation:
-* [View Full Audit Report (PDF)](./Internal_Security_Audit_Report_Hubert_Dulko.pdf)
+* [View Full Audit Report (PDF)](Internal_Security_Audit_&_Risk_Assessment_Report_Hubert_Dulko.pdf)
