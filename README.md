@@ -7,16 +7,16 @@ This repository contains professional documentation and case studies developed d
 **Scenario:** Conducted a comprehensive security audit for a rapidly growing e-commerce company to identify vulnerabilities and ensure regulatory compliance.
 
 ### 🔍 Key Audit Areas:
-* **Asset Management:** Cataloged a full inventory of hardware (desktops, laptops, smartphones), software, and legacy systems requiring manual monitoring. [cite: 37, 41]
-* **Risk Assessment:** Identified critical security gaps, resulting in a **Risk Score of 8/10**. [cite: 44]
-* **Compliance Evaluation:** Assessed the organization's adherence to **NIST CSF**, **GDPR**, **PCI DSS**, and **SOC2** frameworks. [cite: 31, 32, 66]
-* **Technical Findings:** Discovered high-risk issues including lack of encryption for credit card data, absence of IDS, and missing disaster recovery plans. [cite: 51, 52, 55]
+* **Asset Management:** Cataloged a full inventory of hardware (desktops, laptops, smartphones), software, and legacy systems requiring manual monitoring. 
+* **Risk Assessment:** Identified critical security gaps, resulting in a **Risk Score of 8/10**. 
+* **Compliance Evaluation:** Assessed the organization's adherence to **NIST CSF**, **GDPR**, **PCI DSS**, and **SOC2** frameworks. 
+* **Technical Findings:** Discovered high-risk issues including lack of encryption for credit card data, absence of IDS, and missing disaster recovery plans. 
 
 ### 💡 Strategic Recommendations:
-* Implementation of the **Least Privilege** principle and separation of duties. [cite: 89]
-* Deployment of **AES-256 encryption** for sensitive data at rest and in transit. [cite: 90]
-* Establishing a **Disaster Recovery Plan** and regular backup restoration procedures. [cite: 91]
-* Standardization of security policies using the **ISO/IEC 27001** framework. [cite: 96]
+* Implementation of the **Least Privilege** principle and separation of duties. 
+* Deployment of **AES-256 encryption** for sensitive data at rest and in transit. 
+* Establishing a **Disaster Recovery Plan** and regular backup restoration procedures. 
+* Standardization of security policies using the **ISO/IEC 27001** framework. 
 
 ### 📁 Project Documentation:
 * [View Full Audit Report (PDF)](Internal_Security_Audit_&_Risk_Assessment_Report_Hubert_Dulko.pdf)
