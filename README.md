@@ -54,19 +54,17 @@ This portfolio showcases a series of cybersecurity projects completed as part of
 
 ---
 
-# Project 3: Python Automation - Access List Update Algorithm
+## 🐍 Projekt 3: Algorithm for file updates in Python
 
-## 🎯 Project Overview
-This project features a Python-based algorithm designed to automate the process of updating an IP address "allow list" for a healthcare organization.As a security analyst, I developed this tool to efficiently remove access for employees who are no longer authorized to view restricted content.
+**Opis:** Algorytm w języku Python zaprojektowany do aktualizacji pliku tekstowego z adresami IP pracowników, którzy mają dostęp do zastrzeżonych treści w firmie medycznej. Jako analityk bezpieczeństwa przygotowałem to narzędzie, aby regularnie usuwać adresy IP z listy dozwolonych (allow list).
 
-## 💻 Logic & Implementation
-The algorithm performs the following key steps:
-* **File Access:** Opens the `allow_list.txt` in read mode using a `with` statement for secure handling.
-* **Data Transformation:** Reads the content and converts it from a string into a list using the `.split()` method to allow for individual IP manipulation.
-* **Iterative Filtering:** Uses a `for` loop to check each IP against a `remove_list`.
-* **Removal:** If a match is found, the `.remove()` method is applied to the list.
-* **File Update:** Converts the list back into a string via `.join()` and overwrites the original file with the updated data.
+### 🔍 Logika i implementacja:
+* **Inicjalizacja funkcji:** Algorytm definiuje funkcję `update_file`, która przyjmuje dwa parametry: nazwę pliku (`import_file`) oraz listę adresów do usunięcia (`remove_list`).
+* **Bezpieczny odczyt:** Skrypt otwiera plik w trybie odczytu (`"r"`) przy użyciu instrukcji `with`, co gwarantuje automatyczne zamknięcie pliku.
+* **Przetwarzanie danych:** Zawartość pliku jest konwertowana na ciąg znaków metodą `.read()`, a następnie dzielona na listę metodą `.split()`, aby umożliwić edycję poszczególnych elementów.
+* **Iteracja i weryfikacja:** Pętla `for` przechodzi przez listę adresów, a instrukcja `if` sprawdza, czy dany adres znajduje się na liście adresów do usunięcia.
+* **Aktualizacja zasobów:** Po usunięciu wybranych adresów metodą `.remove()`, lista jest łączona z powrotem w ciąg znaków metodą `.join()` i zapisywana do pliku w trybie zapisu (`"w"`).
 
-## 🛠️ Tools & Methods
-* **Language:** Python 
-* **Key Functions:** `open()`, `read()`, `write()`, `.split()`, `.remove()`, `.join()`.
+### 📁 Dokumentacja i Kod:
+* [**Przejdź do folderu projektu (Kod + Opis)**](Python-IP-Allow-List-Update)
+* [**Pełny raport techniczny (PDF)**](Python-IP-Allow-List-Update/Algorithm for file updates in Python.pdf)
