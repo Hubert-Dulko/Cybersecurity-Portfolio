@@ -67,4 +67,4 @@ This portfolio showcases a series of cybersecurity projects completed as part of
 
 ### 📁 Dokumentacja i Kod:
 * [**Przejdź do folderu projektu (Kod + Opis)**](Python-IP-Allow-List-Update)
-* [**Pełny raport techniczny (PDF)**](Python-IP-Allow-List-Update/Algorithm for file updates in Python.pdf)
+* [**Pełny raport techniczny (PDF)**](Algorithm for file updates in Python.pdf)
