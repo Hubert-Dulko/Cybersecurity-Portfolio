@@ -52,3 +52,21 @@ This portfolio showcases a series of cybersecurity projects completed as part of
 ### 📁 Project Documentation:
 * [View Full Incident Journal (PDF)](Incident_Handler's_Journal_Hubert_Dulko.pdf)
 
+---
+
+# Project 3: Python Automation - Access List Update Algorithm
+
+## 🎯 Project Overview
+This project features a Python-based algorithm designed to automate the process of updating an IP address "allow list" for a healthcare organization.As a security analyst, I developed this tool to efficiently remove access for employees who are no longer authorized to view restricted content.
+
+## 💻 Logic & Implementation
+The algorithm performs the following key steps:
+* **File Access:** Opens the `allow_list.txt` in read mode using a `with` statement for secure handling.
+* **Data Transformation:** Reads the content and converts it from a string into a list using the `.split()` method to allow for individual IP manipulation.
+* **Iterative Filtering:** Uses a `for` loop to check each IP against a `remove_list`.
+* **Removal:** If a match is found, the `.remove()` method is applied to the list.
+* **File Update:** Converts the list back into a string via `.join()` and overwrites the original file with the updated data.
+
+## 🛠️ Tools & Methods
+* **Language:** Python 
+* **Key Functions:** `open()`, `read()`, `write()`, `.split()`, `.remove()`, `.join()`.
