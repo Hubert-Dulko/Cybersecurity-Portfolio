@@ -50,4 +50,4 @@ This portfolio showcases a series of cybersecurity projects completed as part of
 * **Documentation:** Professional Incident Journaling and Remediation Planning.
 
 ### 📁 Project Documentation:
-* [View Full Incident Journal (PDF)](Incident_Handlers_Journal_Hubert_Dulko.pdf)
+* [View Full Incident Journal (PDF)](Incident_Handler's_Journal_Hubert_Dulko)
