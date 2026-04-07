@@ -68,3 +68,23 @@ This portfolio showcases a series of cybersecurity projects completed as part of
 ### 📁 Documentation and Code:
 * [**View Project Folder (Code & README)**](./Python-IP-Allow-List-Update/)
 * [**Full Technical Report (PDF)**](./Python-IP-Allow-List-Update/Algorithm_for_file_updates_in_Python.pdf)
+
+---
+
+## 🛡️ Project 4: Vulnerability Assessment & Risk Management (NIST SP 800-30)
+
+**Description:** A professional risk assessment of a mission-critical MySQL database server hosting sensitive PII and financial records for a global e-commerce organization. This project demonstrates the ability to translate technical vulnerabilities into business risks using the **NIST SP 800-30 Rev. 1** framework.
+
+### 🔍 Key Analysis & Methodology:
+* **Business-Centric Approach:** Evaluated risks based on the **CIA Triad** (Confidentiality, Integrity, Availability), focusing on the potential impact of data breaches on business continuity and regulatory compliance.
+* **Risk Identification:** Identified and categorized threat sources (e.g., competitors, hackers) and threat events (exfiltration, data alteration) targeting the organization's primary digital assets.
+* **Qualitative Risk Scoring:** Developed a risk profile by calculating the likelihood and severity of various attack scenarios to prioritize remediation efforts.
+
+### 🛠️ Remediation & Security Strategy:
+Proposed a multi-layered security plan to reduce the attack surface:
+* **Identity & Access Management (IAM):** Implementation of MFA, RBAC, and strict AAA protocols.
+* **Network Hardening:** Transitioning to TLS encryption and implementing IP allow-listing to secure remote connections.
+* **Strategic Oversight:** Aligned technical security controls with organizational goals to mitigate legal and financial consequences.
+
+### 📁 Documentation:
+* [**Full Vulnerability Assessment Report (PDF)**](./Vulnerability-Assessment-Report/Vulnerability_assessment_report.pdf)
