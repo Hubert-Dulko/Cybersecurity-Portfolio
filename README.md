@@ -8,7 +8,7 @@ This repository contains professional documentation and case studies developed d
 
 ### 🔍 Key Audit Areas:
 * **Asset Management:** Cataloged a full inventory of hardware (desktops, laptops, smartphones), software, and legacy systems requiring manual monitoring. 
-* **Risk Assessment:** Identified critical security gaps, resulting in a **Risk Score of 8/10**. 
+* **Risk Assessment:** Evaluated the initial security posture, identifying a Baseline Risk Score of 8/10 due to critical gaps in existing controls.
 * **Compliance Evaluation:** Assessed the organization's adherence to **NIST CSF**, **GDPR**, **PCI DSS**, and **SOC2** frameworks. 
 * **Technical Findings:** Discovered high-risk issues including lack of encryption for credit card data, absence of IDS, and missing disaster recovery plans. 
 
