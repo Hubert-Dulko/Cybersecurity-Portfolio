@@ -26,7 +26,10 @@ This portfolio showcases a series of cybersecurity projects completed as part of
 Proposed a multi-layered security plan to reduce the attack surface:
 * **Identity & Access Management (IAM):** Implementation of MFA, RBAC, and strict AAA protocols.
 * **Network Hardening:** Transitioning to TLS encryption and implementing IP allow-listing to secure remote connections.
-* **Strategic Oversight:** Aligned technical security controls with organizational goals to mitigate legal and financial
+* **Strategic Oversight:** Aligned technical security controls with organizational goals to mitigate legal and financial consequences.
+
+### 📁 Documentation:
+* [**Full Vulnerability Assessment Report (PDF)**](./Vulnerability_Assessment_Report_Hubert_Dulko.pdf)
 
 ---
 
@@ -87,7 +90,4 @@ Proposed a multi-layered security plan to reduce the attack surface:
 
 ---
 
-consequences.
 
-### 📁 Documentation:
-* [**Full Vulnerability Assessment Report (PDF)**](./Vulnerability_Assessment_Report_Hubert_Dulko.pdf)
