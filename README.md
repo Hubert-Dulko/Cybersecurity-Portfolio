@@ -13,8 +13,24 @@ This portfolio showcases a series of cybersecurity projects completed as part of
 * **Threat Analysis** (Ransomware, IDOR, Phishing).
 
 ---
+## 🛡️ Project 1: Vulnerability Assessment & Risk Management (NIST SP 800-30)
 
-## 🛡️ Project 1: Internal Security Audit & Risk Assessment (Botium Toys)
+**Description:** A professional risk assessment of a mission-critical MySQL database server hosting sensitive PII and financial records for a global e-commerce organization. This project demonstrates the ability to translate technical vulnerabilities into business risks using the **NIST SP 800-30 Rev. 1** framework.
+
+### 🔍 Key Analysis & Methodology:
+* **Business-Centric Approach:** Evaluated risks based on the **CIA Triad** (Confidentiality, Integrity, Availability), focusing on the potential impact of data breaches on business continuity and regulatory compliance.
+* **Risk Identification:** Identified and categorized threat sources (e.g., competitors, hackers) and threat events (exfiltration, data alteration) targeting the organization's primary digital assets.
+* **Qualitative Risk Scoring:** Developed a risk profile by calculating the likelihood and severity of various attack scenarios to prioritize remediation efforts.
+
+### 🛠️ Remediation & Security Strategy:
+Proposed a multi-layered security plan to reduce the attack surface:
+* **Identity & Access Management (IAM):** Implementation of MFA, RBAC, and strict AAA protocols.
+* **Network Hardening:** Transitioning to TLS encryption and implementing IP allow-listing to secure remote connections.
+* **Strategic Oversight:** Aligned technical security controls with organizational goals to mitigate legal and financial
+
+---
+
+## 🛡️ Project 2: Internal Security Audit & Risk Assessment (Botium Toys)
 
 **Scenario:** Conducted a comprehensive security audit for a rapidly growing e-commerce company to identify vulnerabilities and ensure regulatory compliance.
 
@@ -35,7 +51,7 @@ This portfolio showcases a series of cybersecurity projects completed as part of
 
 ---
 
-## 🕵️ Project 2: Incident Handler’s Journal (Multi-Case Analysis)
+## 🕵️ Project 3: Incident Handler’s Journal (Multi-Case Analysis)
 
 **Objective:** Document and analyze real-world security incidents using the 5 W's framework and forensic tools to develop actionable remediation strategies.
 
@@ -54,7 +70,7 @@ This portfolio showcases a series of cybersecurity projects completed as part of
 
 ---
 
-## 🐍 Project 3: Algorithm for File Updates in Python
+## 🐍 Project 4: Algorithm for File Updates in Python
 
 **Description:** A Python-based algorithm designed to update a text file containing employee IP addresses authorized to access restricted content in a healthcare company. As a security analyst, I developed this tool to regularly update the "allow list" by programmatically removing IP addresses that no longer require access.
 
@@ -71,20 +87,7 @@ This portfolio showcases a series of cybersecurity projects completed as part of
 
 ---
 
-## 🛡️ Project 4: Vulnerability Assessment & Risk Management (NIST SP 800-30)
-
-**Description:** A professional risk assessment of a mission-critical MySQL database server hosting sensitive PII and financial records for a global e-commerce organization. This project demonstrates the ability to translate technical vulnerabilities into business risks using the **NIST SP 800-30 Rev. 1** framework.
-
-### 🔍 Key Analysis & Methodology:
-* **Business-Centric Approach:** Evaluated risks based on the **CIA Triad** (Confidentiality, Integrity, Availability), focusing on the potential impact of data breaches on business continuity and regulatory compliance.
-* **Risk Identification:** Identified and categorized threat sources (e.g., competitors, hackers) and threat events (exfiltration, data alteration) targeting the organization's primary digital assets.
-* **Qualitative Risk Scoring:** Developed a risk profile by calculating the likelihood and severity of various attack scenarios to prioritize remediation efforts.
-
-### 🛠️ Remediation & Security Strategy:
-Proposed a multi-layered security plan to reduce the attack surface:
-* **Identity & Access Management (IAM):** Implementation of MFA, RBAC, and strict AAA protocols.
-* **Network Hardening:** Transitioning to TLS encryption and implementing IP allow-listing to secure remote connections.
-* **Strategic Oversight:** Aligned technical security controls with organizational goals to mitigate legal and financial consequences.
+consequences.
 
 ### 📁 Documentation:
 * [**Full Vulnerability Assessment Report (PDF)**](./Vulnerability_Assessment_Report_Hubert_Dulko.pdf)
